@@ -1,73 +1,191 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Elpis – Men’s Mental Health</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Les Cicatrices du Silence</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      line-height: 1.6;
+    }
+    header {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('hero.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    header p {
+      max-width: 700px;
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #38bdf8;
+      margin-bottom: 1rem;
+    }
+    .quote {
+      font-style: italic;
+      text-align: center;
+      margin: 3rem 0;
+      font-size: 1.3rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: #020617;
+      padding: 2rem;
+      border-radius: 12px;
+    }
+    footer {
+      background: #020617;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 3rem;
+    }
+    .cta a {
+      text-decoration: none;
+      background: #38bdf8;
+      color: #020617;
+      padding: 0.8rem 1.5rem;
+      border-radius: 30px;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <img src="img/logo.png" alt="Elpis Logo" style="width:90px;" />
-        <div>
-            <h1 style="margin:0; font-size:2.3rem;">Elpis</h1>
-            <p style="margin:5px 0 0 0; font-size:1.1rem; opacity:0.9;">Promouvoir la santé mentale des hommes et briser le silence.</p>
-        </div>
-        <a href="#contact" style="background:white; color:#1f3b73; padding:10px 20px; border-radius:8px; font-weight:600; text-decoration:none;">Contact</a>
-    </header></p>
-    </header>
 
-    <section class="section" id="about">
-        <h2>À propos du projet</h2>
-        <div class="card">
-            <p>
-                Notre association œuvre pour le bien-être mental et émotionnel des individus, </br>
-                avec une attention particulière portée aux populations vulnérables. </br>
-                Elle met en place des actions de sensibilisation, </br>
-                de formation et d’accompagnement afin de réduire la stigmatisation liée aux troubles psychologiques.</br>
-            </p>
-        </div>
-    </section>
+<header>
+  <h1>Les Cicatrices du Silence</h1>
+  <p>
+    Un projet de sensibilisation sur la guerre et la paix,
+    raconté à travers la mémoire, le silence et l’humanité.
+  </p>
+</header>
 
-    <section class="section" id="mission">
-        <h2>Notre Mission</h2>
-        <div class="card">
-            <ul>
-                <li>Briser les tabous autour de la santé mentale masculine.</li>
-                <li>Créer des espaces sûrs pour parler et s’exprimer.</li>
-                <li>Encourager les hommes à demander de l’aide sans honte.</li>
-                <li>Organiser des campagnes de sensibilisation et des workshops.</li>
-            </ul>
-        </div>
-    </section>
+<section>
+  <h2>À propos du projet</h2>
+  <p>
+    <strong>Les Cicatrices du Silence</strong> est un court projet visuel et sonore
+    qui explore l’impact durable de la guerre sur les individus et les générations.
+    À travers une narration symbolique et respectueuse, le projet met en lumière
+    ce que la guerre laisse derrière elle — même quand le bruit s’est arrêté.
+  </p>
+</section>
 
-    <section class="section" id="logo">
-        <h2>Logo & Identité</h2>
-        <div class="card">
-            <img src="img/logo.png" alt="Elpis Logo" style="width:90px;" />
-            <p>
-                Le nom <strong>Elpis</strong> signifie « espoir » — un symbole puissant pour représenter
-                la lumière au bout du tunnel. Le design du logo reflète la stabilité, le soutien et le courage.
-            </p>
-        </div>
-    </section>
+<section class="quote">
+  “La guerre détruit. La paix construit.”
+</section>
 
-    <section class="section" id="contact">
-        <h2>Contact</h2>
-        <div class="card contact-box">
-            <p>Phone : <a href="#">+216 51 166 275</a></p>
-            <p>Email : <a href="mailto:contact@elpis.org">contact@elpis.org</a></p>
-            <p>Instagram : <a href="https://www.instagram.com/elpis_project0/">@elpis_project0</a></p>
-        </div>
-    </section>
+<section>
+  <h2>Les thèmes abordés</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Mémoire</h3>
+      <p>
+        Les souvenirs de la guerre restent gravés dans les esprits,
+        même lorsque les conflits prennent fin.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Transmission</h3>
+      <p>
+        Les histoires non racontées se transmettent par le silence,
+        entre générations.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Humanité</h3>
+      <p>
+        Derrière chaque guerre, il y a des vies, des familles,
+        et une humanité à protéger.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Paix</h3>
+      <p>
+        La paix n’est pas l’absence de guerre,
+        mais un choix collectif et quotidien.
+      </p>
+    </div>
+  </div>
+</section>
 
-    <footer>
-        <p>© 2025 Elpis – Tous droits réservés.</p>
-    </footer>
+<section>
+  <h2>Le message</h2>
+  <p>
+    Là où vous vivez ne devrait jamais décider si vous vivez.
+    Ce projet invite chacun à réfléchir, à ressentir,
+    et à choisir la paix comme valeur fondamentale.
+  </p>
+
+  <div class="cta">
+    <a href="#">Choisir la paix</a>
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>
+    Une question, un message ou l’envie de soutenir ce projet ?
+    N’hésitez pas à nous écrire.
+  </p>
+
+  <form action="https://formspree.io/f/your-form-id" method="POST" style="max-width:600px;margin:auto;">
+    <div style="margin-bottom:1rem;">
+      <label for="name">Nom</label><br />
+      <input type="text" id="name" name="name" required style="width:100%;padding:0.7rem;border-radius:8px;border:none;" />
+    </div>
+
+    <div style="margin-bottom:1rem;">
+      <label for="email">Email</label><br />
+      <input type="email" id="email" name="email" required style="width:100%;padding:0.7rem;border-radius:8px;border:none;" />
+    </div>
+
+    <div style="margin-bottom:1.5rem;">
+      <label for="message">Message</label><br />
+      <textarea id="message" name="message" rows="5" required style="width:100%;padding:0.7rem;border-radius:8px;border:none;"></textarea>
+    </div>
+
+    <div style="text-align:center;">
+      <button type="submit" style="background:#38bdf8;color:#020617;padding:0.8rem 1.8rem;border:none;border-radius:30px;font-weight:bold;cursor:pointer;">
+        Envoyer
+      </button>
+    </div>
+  </form>
+</section>
+
+<footer>
+  <p>
+    © 2025 – Projet de sensibilisation | Guerre & Paix<br />
+    "Les cicatrices du silence ne se voient pas, mais elles existent."
+  </p>
+</footer>
+
 </body>
 </html>
-
-
